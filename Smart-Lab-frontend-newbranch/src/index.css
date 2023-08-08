@@ -1,0 +1,566 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap");
+
+
+.container {
+	border: 3px;
+}
+
+h2 a {
+	text-decoration: none;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+.navbar {
+	font-weight: 200;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.navbar .navlinks {
+	font-size: 18px;
+	padding: 10px;
+	margin-left: auto;
+}
+
+.navbar h1 {
+	color: crimson;
+}
+
+.navbar a {
+	color: black !important;
+	text-decoration: none;
+	padding: 0 8px;
+	margin-left: 16px;
+}
+
+.navlinks a:hover {
+	background-color: rgb(228, 80, 109) !important;
+	border-radius: 8px;
+	color: aliceblue;
+}
+
+.vcard {
+	padding: 10px;
+	text-align: center !important;
+	max-width: 100px !important;
+	margin: 5px auto;
+}
+
+.auth-card {
+	display: block;
+	padding: 20px;
+	text-align: center !important;
+	max-width: 400px !important;
+	margin: 10px auto;
+}
+
+
+button {
+	max-width: 150px;
+	margin: 10px;
+}
+
+
+.home-card {
+	padding: 10px;
+	width: 400px !important;
+	max-height: fit-content;
+	margin: auto;
+	margin-bottom: 26px;
+}
+
+svg {
+	margin: 3px;
+}
+
+.icon {
+	height: 150px;
+	width: 150px;
+	cursor: pointer;
+}
+
+.hide {
+	visibility: hidden;
+	opacity: 0;
+}
+
+
+
+
+
+/* ----------------------- */
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0px;
+	overflow-x: hidden;
+	background-color: #efefef;
+}
+
+.navbar {
+	border: 1px solid #efefef;
+}
+
+.logo {
+	border-radius: 50%;
+}
+
+.devices {
+	padding: 20px 20px;
+	position: relative;
+	height: auto;
+}
+
+.d1 {
+	padding: 20px 0px;
+}
+
+.iot-devices {
+	flex-direction: row;
+}
+
+.card {
+	border: 1px solid white;
+}
+
+.card-dashboard {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+/* The switch - the box around the slider */
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 45px;
+	height: 25px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+/* The slider */
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 15px;
+	width: 15px;
+	left: 3px;
+	bottom: 5px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+input:checked+.slider {
+	background-color: #2196F3;
+}
+
+input:focus+.slider {
+	box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+	-webkit-transform: translateX(24px);
+	-ms-transform: translateX(24px);
+	transform: translateX(24px);
+}
+
+/* Rounded sliders */
+.slider.round {
+	border-radius: 13px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
+}
+
+.card-header {
+	border-bottom: #efefef;
+}
+
+.faculty-form {
+	padding: 20px 20px;
+	margin: 10px;
+}
+
+.form-row {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.noti-card {
+	margin: 10px;
+	padding: 5px;
+}
+
+.noti-card1 {
+	padding: 10px;
+}
+
+/*
+  You can easily make changes in the CSS with the variables below.
+
+  All variables are done in HSL(hue saturation light / opacity):
+  - hue:        0 to 360;
+  - saturation: 0 to 100 (%);
+  - light:      0 to 100 (%);
+  - / opacity:  0.00 to 1 (1 by default)
+*/
+
+/* :root {
+	--text-color: hsl(0 0% 100%);
+	
+	--table-background-hue: 255;
+	--table-background-saturation: 20%;
+	--table-background-light: 20%;
+	
+	--th-opacity: 0.5;
+	--th-2n: 0.15;
+  }
+  
+  html {
+	color-scheme: dark;
+  }
+  
+  body {
+	color: var(--text-color);
+	font-size: 1.125rem;
+	font-family: system-ui;
+	line-height: 1.5;
+  }
+   */
+h1 {
+	color: #fafafa;
+}
+
+section {
+	margin-bottom: 2rem;
+	color: #fafafa;
+}
+
+section h3 {
+	line-height: 2rem;
+}
+
+span.code-css {
+	background-color: hsl(210 100% 50%);
+	color: hsl(0 0% 100%);
+	padding: 0.25rem 0.5rem;
+	border-radius: 0.5rem;
+}
+
+span.code {
+	background-color: hsl(0 0% 0% / 0.25);
+	font-style: italic;
+	color: hsl(0 0% 80%);
+	padding: 0.25rem 0.5rem;
+	border-radius: 0.5rem;
+}
+
+.wrapper {
+	width: min(900px, 100% - 3rem);
+	margin-inline: auto;
+}
+
+table {
+	width: 100%;
+	background: hsl(var(--table-background-hue) var(--table-background-saturation) var(--table-background-light));
+	border-collapse: collapse;
+}
+
+caption,
+th,
+td {
+	padding: 1rem;
+}
+
+caption,
+th {
+	text-align: left;
+}
+
+caption {
+	background: hsl(0 0% 0%);
+	font-size: 1.5rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+th {
+	background: hsl(0 0% 0% / var(--th-opacity));
+}
+
+tr:nth-of-type(2n) {
+	background: hsl(0 0% 0% / var(--th-2n));
+}
+
+
+
+@media (max-width: 650px) {
+	th {
+		display: none;
+	}
+
+	td {
+		display: grid;
+		gap: 0.5rem;
+		grid-template-columns: 18ch auto;
+		padding: 0.5rem 1rem;
+	}
+
+	td:first-child {
+		padding-top: 2rem;
+	}
+
+	td:last-child {
+		padding-bottom: 2rem;
+	}
+
+	td::before {
+		content: attr(data-cell) ": ";
+		font-weight: 700;
+		text-transform: capitalize;
+	}
+}
+
+.card-select {
+	margin: 10px;
+	padding: 5px;
+	margin-bottom: 2rem;
+	color: #fafafa;
+	border-bottom: #efefef;
+}
+
+select {
+	word-wrap: normal;
+	color: #767676;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css);
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css); */
+
+/* body {
+    background-color: #e0e3e8;
+    font-family: "Rubik", sans-serif;
+}
+
+a, a:hover, a:focus {
+    text-decoration: none;
+    transition: 0.5s;
+    outline: none;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #475f7b;
+    background-color: #fff;
+    border: 1px solid #dfe3e7;
+    border-radius: 0.267rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form-control:focus {
+    color: #475f7b;
+    background-color: #fff;
+    border-color: #5a8dee;
+    outline: 0;
+    box-shadow: 0 3px 8px 0 rgb(0 0 0 / 10%);
+}
+.card {
+     box-shadow: 0px 5px 10px rgba(90, 116, 148, 0.3);
+    background-color: #fff;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    color: #475f7b;
+    overflow: hidden;
+}
+.pagination-data{
+  padding: 0;
+  margin: 0;
+}
+.pagination-data li{
+  list-style:none;
+}
+.table-filter-info{
+  padding : 15px;
+}
+.thead-primary tr th {
+    background-color: #5a8dee;
+    border-color: #5a8dee;
+    color: #fff;
+}
+
+.rc-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.rc-pagination-item,
+.rc-pagination-prev, 
+.rc-pagination-jump-prev, 
+.rc-pagination-jump-next {
+    margin-right: 8px;
+}
+
+.rc-pagination-total-text{
+  margin-right: 12px;
+  cursor: initial;
+}
+
+.rc-pagination-jump-next, 
+.rc-pagination-jump-prev, 
+.rc-pagination-next, 
+.rc-pagination-prev {
+    display: inline-block;
+    min-width: 28px;
+    height: 28px;
+    color: rgba(0,0,0,.85);
+    font-family: Arial;
+    line-height: 28px;
+    text-align: center;
+    vertical-align: middle;
+    list-style: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.rc-pagination-jump-next button, 
+.rc-pagination-jump-prev button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #666;
+}
+.rc-pagination-jump-next button:after, 
+.rc-pagination-jump-prev button:after {
+    display: block;
+    content: "•••";
+}
+.rc-pagination-item, 
+.rc-pagination-prev, 
+.rc-pagination-next, 
+.rc-pagination-total-text {
+    min-width: initial;
+    height: auto;
+    line-height: initial;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.rc-pagination-item a, 
+.rc-pagination-item button, 
+.rc-pagination-prev a, 
+.rc-pagination-prev button, 
+.rc-pagination-next a, 
+.rc-pagination-next button,
+.rc-pagination-total-text a, 
+.rc-pagination-total-text button {
+    padding: 6px 8px;
+    height: auto;
+    min-width: 32px;
+    min-height: 32px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 500;
+    color: #656f84 !important;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.rc-pagination-item.rc-pagination-item-active a, 
+.rc-pagination-item.rc-pagination-item-active a:hover, 
+.rc-pagination-prev.rc-pagination-item-active a, 
+.rc-pagination-prev.rc-pagination-item-active a:hover, 
+.rc-pagination-next.rc-pagination-item-active a, 
+.rc-pagination-next.rc-pagination-item-active a:hover, 
+.rc-pagination-total-text.rc-pagination-item-active a, 
+.rc-pagination-total-text.rc-pagination-item-active a:hover {
+    background-color: #5a8dee;
+    border-color: #5a8dee;
+    color: #ffffff !important;
+}
+.rc-pagination-item a:hover, 
+.rc-pagination-item button:hover, 
+.rc-pagination-prev a:hover, 
+.rc-pagination-prev button:hover, 
+.rc-pagination-next a:hover, 
+.rc-pagination-next button:hover, 
+.rc-pagination-total-text a:hover, 
+.rc-pagination-total-text button:hover {
+    background-color: #eceff5;
+    border-color: #eceff5;
+} */

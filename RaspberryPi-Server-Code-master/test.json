@@ -1,0 +1,49 @@
+{'192.168.43.96': {'osmatch': [
+            {'name': 'FreeBSD 6.2-RELEASE', 'accuracy': '95', 'line': '27364', 'osclass': {'type': 'general purpose', 'vendor': 'FreeBSD', 'osfamily': 'FreeBSD', 'osgen': '6.X', 'accuracy': '95'
+                }, 'cpe': 'cpe:/o:freebsd:freebsd: 6.2'
+            },
+            {'name': 'Microsoft Windows 10', 'accuracy': '93', 'line': '68986', 'osclass': {'type': 'general purpose', 'vendor': 'Microsoft', 'osfamily': 'Windows', 'osgen': '10', 'accuracy': '93'
+                }, 'cpe': 'cpe:/o:microsoft:windows_10'
+            },
+            {'name': 'Microsoft Windows Server 2008 or 2008 Beta 3', 'accuracy': '91', 'line': '74063', 'osclass': {'type': 'general purpose', 'vendor': 'Microsoft', 'osfamily': 'Windows', 'osgen': '2008', 'accuracy': '91'
+                }, 'cpe': 'cpe:/o:microsoft:windows_server_2008'
+            },
+            {'name': 'Microsoft Windows Server 2008 SP1', 'accuracy': '87', 'line': '74666', 'osclass': {'type': 'general purpose', 'vendor': 'Microsoft', 'osfamily': 'Windows', 'osgen': '2008', 'accuracy': '87'
+                }, 'cpe': 'cpe:/o:microsoft:windows_server_2008: :sp1'
+            },
+            {'name': 'm0n0wall 1.3b11 - 1.3b15 (FreeBSD 6.3)', 'accuracy': '86', 'line': '27047', 'osclass': {'type': 'firewall', 'vendor': 'FreeBSD', 'osfamily': 'FreeBSD', 'osgen': '6.X', 'accuracy': '86'
+                }, 'cpe': 'cpe:/o:freebsd:freebsd: 6.3'
+            },
+            {'name': 'Juniper SRX-series firewall (JUNOS 12.1)', 'accuracy': '86', 'line': '40905', 'osclass': {'type': 'firewall', 'vendor': 'Juniper', 'osfamily': 'JUNOS', 'osgen': '12.X', 'accuracy': '86'
+                }, 'cpe': 'cpe:/o:juniper:junos: 12.1'
+            },
+            {'name': 'Microsoft Windows 10 1703', 'accuracy': '86', 'line': '69466', 'osclass': {'type': 'general purpose', 'vendor': 'Microsoft', 'osfamily': 'Windows', 'osgen': '10', 'accuracy': '86'
+                }, 'cpe': 'cpe:/o:microsoft:windows_10: 1703'
+            },
+            {'name': 'Microsoft Windows 10 1511 - 1607', 'accuracy': '86', 'line': '69178', 'osclass': {'type': 'general purpose', 'vendor': 'Microsoft', 'osfamily': 'Windows', 'osgen': '10', 'accuracy': '86'
+                }, 'cpe': 'cpe:/o:microsoft:windows_10'
+            },
+            {'name': 'Juniper SRX100-series or SRX200-series firewall (JUNOS 10.4 - 12.1)', 'accuracy': '85', 'line': '40867', 'osclass': {'type': 'firewall', 'vendor': 'Juniper', 'osfamily': 'JUNOS', 'osgen': '12.X', 'accuracy': '85'
+                }, 'cpe': 'cpe:/o:juniper:junos: 12'
+            }
+        ], 'ports': [
+            {'protocol': 'tcp', 'portid': '135', 'state': 'open', 'reason': 'syn-ack', 'reason_ttl': '128', 'service': {'name': 'msrpc', 'method': 'table', 'conf': '3'
+                }, 'cpe': [], 'scripts': []
+            },
+            {'protocol': 'tcp', 'portid': '445', 'state': 'open', 'reason': 'syn-ack', 'reason_ttl': '128', 'service': {'name': 'microsoft-ds', 'method': 'table', 'conf': '3'
+                }, 'cpe': [], 'scripts': []
+            }
+        ], 'hostname': [], 'macaddress': {'addr': '4E: 15: 63: 88: 48:E0', 'addrtype': 'mac'
+        }
+    }, 'runtime': {'time': '1682432169', 'timestr': 'Tue Apr 25 19: 46: 09 2023', 'elapsed': '9.05', 'summary': 'Nmap done at Tue Apr 25 19: 46: 09 2023; 1 IP address (1 host up) scanned in 9.05 seconds', 'exit': 'success'
+    }, 'stats': {'scanner': 'nmap', 'args': '/usr/bin/nmap -v -oX - -O 192.168.43.96', 'start': '1682432160', 'startstr': 'Tue Apr 25 19: 46: 00 2023', 'version': '7.80', 'xmloutputversion': '1.04'
+    }, 'task_results': [
+        {'task': 'ARP Ping Scan', 'time': '1682432160', 'extrainfo': '1 total hosts'
+        },
+        {'task': 'Parallel DNS resolution of 1 host.', 'time': '1682432160'
+        },
+        {'task': 'SYN Stealth Scan', 'time': '1682432165', 'extrainfo': '1000 total ports'
+        }
+    ]
+}
+
