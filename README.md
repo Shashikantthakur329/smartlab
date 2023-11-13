@@ -30,4 +30,4 @@ In the case of a potential Man-in-the-Middle attack, the student may receive a n
 #### student details
 ![alt text](./images/studentdetails.png)
 
-[![Watch the video](./images/project_video.mp4)](./images/project_video.mp4)
+[![Get the project video](./images/project_video.mp4)](./images/project_video.mp4)
