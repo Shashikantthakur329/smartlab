@@ -7,4 +7,27 @@ In the case of a potential Man-in-the-Middle attack, the student may receive a n
 
 # Features of project
 
+#### home screen
 ![alt text](./images/img1.jfif)
+
+#### login screen
+![alt text](./images/login.png)
+
+#### lab details
+![alt text](./images/img3.jfif)
+
+#### request screen
+![alt text](./images/img2.jfif)
+
+#### bulb in off state
+![alt text](./images/img4.jfif)
+
+
+#### bulb in on state
+![alt text](./images/img5.jfif)
+
+
+#### student details
+![alt text](./images/studentdetails.png)
+
+[![Watch the video](./images/project_video.mp4)](./images/project_video.mp4)
