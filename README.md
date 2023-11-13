@@ -20,11 +20,11 @@ In the case of a potential Man-in-the-Middle attack, the student may receive a n
 ![alt text](./images/img2.jfif)
 
 #### bulb in off state
-![alt text](./images/img4.jfif)
+![alt text](./images/img4.png)
 
 
 #### bulb in on state
-![alt text](./images/img5.jfif)
+![alt text](./images/img5.png)
 
 
 #### student details
