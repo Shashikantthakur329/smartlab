@@ -21,9 +21,9 @@ const db = mysql.createConnection({
 
     host: "localhost",
 
-    user: "smartuser",
+    user: "",
 
-    password: "iiita@123",
+    password: "",
 
     database: "smartlab",
 
