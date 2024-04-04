@@ -6,6 +6,8 @@ In the case of a potential Man-in-the-Middle attack, the student may receive a n
 
 
 # Features of project
+#### Controlling bulb through interface
+![Turning bulb on and off GIF](./images/video.gif)
 
 #### home screen
 ![alt text](./images/img1.jfif)
